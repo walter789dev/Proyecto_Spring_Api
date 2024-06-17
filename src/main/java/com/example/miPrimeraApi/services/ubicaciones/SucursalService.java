@@ -1,7 +1,6 @@
 package com.example.miPrimeraApi.services.ubicaciones;
 
 import com.example.miPrimeraApi.entities.Categoria;
-import com.example.miPrimeraApi.entities.personas.Empleado;
 import com.example.miPrimeraApi.entities.promociones.Promocion;
 import com.example.miPrimeraApi.entities.ubicaciones.Sucursal;
 import com.example.miPrimeraApi.repositories.ubicaciones.SucursalRepository;

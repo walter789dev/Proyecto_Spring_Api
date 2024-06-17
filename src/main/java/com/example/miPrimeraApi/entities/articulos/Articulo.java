@@ -25,7 +25,7 @@ public abstract class Articulo extends Base {
 
     @OneToMany
     @Builder.Default
-    protected Set<Imagen> imagenesArticulos = new HashSet<Imagen>();
+    protected Set<Imagen> imagenesArticulos = new HashSet<>();
 
     @ManyToOne
     @JoinColumn(name = "id_categoria")

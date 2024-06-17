@@ -1,6 +1,5 @@
 package com.example.miPrimeraApi.services.articulos;
 
-import com.example.miPrimeraApi.entities.articulos.ArticuloManufacturado;
 import com.example.miPrimeraApi.entities.articulos.ArticuloManufacturadoDetalle;
 import com.example.miPrimeraApi.repositories.articulos.ArticuloManufacturadoDetalleRepository;
 import com.example.miPrimeraApi.services.BaseService;

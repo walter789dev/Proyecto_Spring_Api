@@ -40,12 +40,12 @@ public class Sucursal extends Base {
             joinColumns = @JoinColumn(name = "id_sucursal"),
             inverseJoinColumns = @JoinColumn(name = "id_promocion"))
     @Builder.Default
-    private Set<Promocion> promociones = new HashSet<Promocion>();
+    private Set<Promocion> promociones = new HashSet<>();
 
     @ManyToMany
     @JoinTable(name = "sucursal_categoria",
             joinColumns = @JoinColumn(name = "id_sucursal"),
             inverseJoinColumns = @JoinColumn(name = "id_categoria"))
     @Builder.Default
-    private Set<Categoria> categorias = new HashSet<Categoria>();
+    private Set<Categoria> categorias = new HashSet<>();
 }

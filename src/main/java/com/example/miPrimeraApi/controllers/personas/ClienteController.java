@@ -1,7 +1,6 @@
 package com.example.miPrimeraApi.controllers.personas;
 
 import com.example.miPrimeraApi.controllers.BaseController;
-import com.example.miPrimeraApi.entities.Categoria;
 import com.example.miPrimeraApi.entities.personas.Cliente;
 import com.example.miPrimeraApi.entities.ubicaciones.Domicilio;
 import com.example.miPrimeraApi.services.personas.ClienteService;

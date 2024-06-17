@@ -39,5 +39,5 @@ public class Promocion extends Base {
 
     @OneToMany
     @Builder.Default
-    private Set<Imagen> imagenesPromocion = new HashSet<Imagen>();
+    private Set<Imagen> imagenesPromocion = new HashSet<>();
 }
