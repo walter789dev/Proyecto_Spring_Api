@@ -33,7 +33,7 @@
 - _GET ALL BY ID CATEGORIA_: "/articulos-manufacturado/categoria/{id}"
 - _GET ALL IMAGEN BY ARTICULO-INSUMO_: "/articulos-manufacturado/{id}/imagenes"
 
-## ArticuloManufacturadoDetalle:
+### ArticuloManufacturadoDetalle:
 - _GET ALL_: "/manufacturados-detalle"
 - _GET BY ID_: "/manufacturados-detalle/{id}"
 - _POST_: "manufacturados-detalle" -> body: ArticuloManufacturadoDetalle
