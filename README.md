@@ -149,7 +149,7 @@
 - _DELETE_: "/articulos-manufacturado/{id}"
 
 #### Metodos personalizados:
-- _GET ALL BY ID UNIDAD-MEDIDA_: "/articulos-manufacturado/detalle-promocion/{id}"
+- _GET ALL BY ID UNIDAD-MEDIDA_: "/articulos-manufacturado/unidad-medida/{id}"
 - _GET ALL BY ID CATEGORIA_: "/articulos-manufacturado/categoria/{id}"
 - _GET ALL IMAGEN BY ARTICULO-INSUMO_: "/articulos-manufacturado/{id}/imagenes"
 
