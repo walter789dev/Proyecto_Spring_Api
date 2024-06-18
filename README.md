@@ -1,6 +1,25 @@
 # Proyecto Spring Boot + JPA - API
 
 ## Metodos:
+- [Empresa](#Empresa)
+- [Sucursal](#Sucursal)
+- [Categoria](#Categoria)
+- [Empleado](#Empleado)
+- [Cliente](#Cliente)
+- [Usuario](#Usuario)
+- [Imagen](#Imagen)
+- [Domicilio](#Domicilio)
+- [Localidad](#Localidad)
+- [Provincia](#Provincia)
+- [Pais](#Pais)
+- [UnidadMedida](#UnidadMedida)
+- [ArticuloInsumo](#ArticuloInsumo)
+- [ArticuloManufacturado](#ArticuloManufacturado)
+- [ArticuloManufacturadoDetalle](#ArticuloManufacturadoDetalle)
+- [Promocion](#Promocion)
+- [PromocionDetalle](#PromocionDetalle)
+- [Pedido](#Pedido)
+- [DetallePedido](#DetallePedido)
 
 ### Empresa:
 - _GET ALL_: "/empresas"
@@ -102,6 +121,13 @@
 - _POST_: "paises" -> body: Pais
 - _PUT_: "paises" -> body: Pais
 - _DELETE_: "/paises/{id}"
+
+### UnidadMedida:
+- _GET ALL_: "/unidades-medida"
+- _GET BY ID_: "/unidades-medida/{id}"
+- _POST_: "unidades-medida" -> body: UnidadMedida
+- _PUT_: "unidades-medida" -> body: UnidadMedida
+- _DELETE_: "/unidades-medida/{id}"
 
 ### ArticuloInsumo:
 - _GET ALL_: "/articulos-insumo"
