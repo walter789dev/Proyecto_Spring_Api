@@ -27,7 +27,7 @@ public class ArticuloManufacturadoController extends BaseController<ArticuloManu
         super(articuloManufacturadoService);
     }
 
-    @GetMapping("/detalle-promocion/{id}")
+    @GetMapping("/unidad-medida/{id}")
     public ResponseEntity<List<ArticuloManufacturado>> listarArticulosManufacturadosPorUnidadMedida(@PathVariable Long id) throws Exception {
         List<ArticuloManufacturado> articuloInsumos = articuloManufacturadoService.listarArticulosManufacturadosPorUnidadMedida(id);
         return ResponseEntity.of(Optional.ofNullable(articuloInsumos));
