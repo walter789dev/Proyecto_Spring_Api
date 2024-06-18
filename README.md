@@ -138,6 +138,27 @@
 - _GET ALL BY ID ARTICULO-MANUFACTURADO_: "/manufacturados-detalle/articulo-manufacturado/{id}"
 - _GET ALL BY ID ARTICULO-INSUMO_: "/manufacturados-detalle/articulo-insumo/{id}"
 
+### Promocion:
+- _GET ALL_: "/promociones"
+- _GET BY ID_: "/promociones/{id}"
+- _POST_: "promociones" -> body: Promocion
+- _PUT_: "promociones" -> body: Promocion
+- _DELETE_: "/promociones/{id}"
+
+#### Metodos personalizados:
+- _GET ALL IMAGEN BY PROMOCION_: "/articulos-manufacturado/{id}/imagenes"
+
+### PromocionDetalle:
+- _GET ALL_: "/detalles-promocion"
+- _GET BY ID_: "/detalles-promocion/{id}"
+- _POST_: "detalles-promocion" -> body: PromocionDetalle
+- _PUT_: "detalles-promocion" -> body: PromocionDetalle
+- _DELETE_: "/detalles-promocion/{id}"
+
+#### Metodos personalizados:
+- _GET ALL BY ID PROMOCION_: "/detalles-promocion/promocion/{id}"
+- _GET ALL BY ID ARTICULO_: "/detalles-promocion/articulo/{id}"
+
 ### Pedido:
 - _GET ALL_: "/pedidos"
 - _GET BY ID_: "/pedidos/{id}"
