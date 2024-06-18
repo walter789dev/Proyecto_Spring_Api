@@ -2,12 +2,106 @@
 
 ## Metodos:
 
-### UnidadMedida:
-- _GET ALL_: "/unidades-medida"
-- _GET BY ID_: "/unidades-medida/{id}"
-- _POST_: "unidades-medida" -> body: UnidadMedida
-- _PUT_: "unidades-medida" -> body: UnidadMedida
-- _DELETE_: "/unidades-medida/{id}"
+### Empresa:
+- _GET ALL_: "/empresas"
+- _GET BY ID_: "/empresas/{id}"
+- _POST_: "empresas" -> body: Empresa
+- _PUT_: "empresas" -> body: Empresa
+- _DELETE_: "/empresas/{id}"
+
+### Sucursal:
+- _GET ALL_: "/sucursales"
+- _GET BY ID_: "/sucursales/{id}"
+- _POST_: "sucursales" -> body: Sucursal
+- _PUT_: "sucursales" -> body: Sucursal
+- _DELETE_: "/sucursales/{id}"
+
+#### Metodos personalizados:
+- _GET ALL BY ID EMPRESA_: "/sucursales/empresa/{id}"
+- _GET ALL CATEGORIA BY SUCURSAL_: "/sucursales/{id}/categorias"
+- _GET ALL PROMOCION BY SUCURSAL_: "/sucursales/{id}/promociones"
+
+### Categoria:
+- _GET ALL_: "/categorias"
+- _GET BY ID_: "/categorias/{id}"
+- _POST_: "categorias" -> body: Categoria
+- _PUT_: "categorias" -> body: Categoria
+- _DELETE_: "/categorias/{id}"
+
+#### Metodos personalizados:
+- _GET ALL BY ID CATEGORIA: "/categorias/categoria-padre/{id}"
+- _PUT CATEGORIA BY CATEGORIA: "/categorias/{id}/subcategorias"
+
+### Empleado:
+- _GET ALL_: "/empleados"
+- _GET BY ID_: "/empleados/{id}"
+- _POST_: "empleados" -> body: Empleado
+- _PUT_: "empleados" -> body: Empleado
+- _DELETE_: "/empleados/{id}"
+
+#### Metodos personalizados:
+- _GET ALL BY ID SUCURSAL_: "/empleados/sucursal/{id}"
+
+### Cliente:
+- _GET ALL_: "/clientes"
+- _GET BY ID_: "/clientes/{id}"
+- _POST_: "clientes" -> body: Cliente
+- _PUT_: "clientes" -> body: Cliente
+- _DELETE_: "/clientes/{id}"
+
+#### Metodos personalizados:
+- _GET ALL DOMICILIO BY CLIENTE_: "/clientes/{id}/domicilios"
+
+### Usuario:
+- _GET ALL_: "/usuarios"
+- _GET BY ID_: "/usuarios/{id}"
+- _POST_: "usuarios" -> body: Usuario
+- _PUT_: "usuarios" -> body: Usuario
+- _DELETE_: "/usuarios/{id}"
+
+### Imagen:
+- _GET ALL_: "/imagenes"
+- _GET BY ID_: "/imagenes/{id}"
+- _POST_: "imagenes" -> body: Imagen
+- _PUT_: "imagenes" -> body: Imagen
+- _DELETE_: "/imagenes/{id}"
+
+### Domicilio:
+- _GET ALL_: "/domicilios"
+- _GET BY ID_: "/domicilios/{id}"
+- _POST_: "domicilios" -> body: Domicilio
+- _PUT_: "domicilios" -> body: Domicilio
+- _DELETE_: "/domicilios/{id}"
+
+#### Metodos personalizados:
+- _GET ALL BY ID LOCALIDAD_: "/domicilios/localidad/{id}"
+
+### Localidad:
+- _GET ALL_: "/localidades"
+- _GET BY ID_: "/localidades/{id}"
+- _POST_: "localidades" -> body: Localidad
+- _PUT_: "localidades" -> body: Localidad
+- _DELETE_: "/localidades/{id}"
+
+#### Metodos personalizados:
+- _GET ALL BY ID PROVINCIA_: "/localidades/provincia/{id}"
+
+### Provincia:
+- _GET ALL_: "/provincias"
+- _GET BY ID_: "/provincias/{id}"
+- _POST_: "provincias" -> body: Provincia
+- _PUT_: "provincias" -> body: Provincia
+- _DELETE_: "/provincias/{id}"
+
+#### Metodos personalizados:
+- _GET ALL BY ID PAIS_: "/provincias/pais/{id}"
+
+### Pais:
+- _GET ALL_: "/paises"
+- _GET BY ID_: "/paises/{id}"
+- _POST_: "paises" -> body: Pais
+- _PUT_: "paises" -> body: Pais
+- _DELETE_: "/paises/{id}"
 
 ### ArticuloInsumo:
 - _GET ALL_: "/articulos-insumo"
