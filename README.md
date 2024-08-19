@@ -1,6 +1,6 @@
 # Proyecto Spring Boot + JPA - API
 
-![Spring](spring-boot.jpeg | 300)
+![Spring](spring-boot.jpeg)
 
 ## Metodos:
 - [Empresa](#Empresa)
