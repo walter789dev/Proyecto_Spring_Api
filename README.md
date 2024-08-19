@@ -1,5 +1,7 @@
 # Proyecto Spring Boot + JPA - API
 
+![Spring](spring-boot.jpeg)
+
 ## Metodos:
 - [Empresa](#Empresa)
 - [Sucursal](#Sucursal)
